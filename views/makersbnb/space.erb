@@ -9,18 +9,16 @@
       <p><% @space.each do |get_space| %>
         <ul>
           <li>
-            ID: <%= get_space['id'] %>
-            Name: <%= get_space['space_name'] %>
-            Description: <%= get_space['description'] %>
-            Price: <%= get_space['price'] %>
-
-            <br/>
-            Dates Available:
+            ID: <%= get_space['id'] %><br>
+            Name: <%= get_space['space_name'] %><br>
+            Description: <%= get_space['description'] %><br>
+            Price: <%= get_space['price'] %><br>
+            Dates Available: <%= get_space['dates_available'] %><br>
 
             <form action="/makersbnb/request-space/<%= get_space['id'] %>" method='get'>
               <input value='Request to Book Space' type='submit'>
             </form>
-
+            
             <% if get_space['user_id'] == @user.user_id %>
               <form action="/makersbnb/delete-space/<%= get_space['id'] %>" method='post'>
                 <input value='Delete Space' type='submit'>

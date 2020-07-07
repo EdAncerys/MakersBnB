@@ -78,17 +78,3 @@ feature 'request space' do
 
 
 end
-
-
-
-
-# FOR VIEW!
-# <% @request.each do |get_request| %>
-#   <ul>
-#     <li>
-#       User ID: <%= get_request['user_id'] %>
-#       Space ID: <%= get_request['space_id'] %>
-#       Date: <%= get_request['date'] %>
-#     </li>
-#   </ul>
-# <% end %>

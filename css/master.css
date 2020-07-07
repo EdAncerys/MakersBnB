@@ -35,4 +35,8 @@
     }
     .row.content {height:auto;}
   }
+
+  .button {
+    display:inline-block;
+  }
 }
