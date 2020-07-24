@@ -4,7 +4,7 @@
 
 ## Project Description
 
-Create a clone app of Airbnb in Ruby. This is a group project focused on pair programing and delivering MPV utilizing XP principles.
+Create a clone app of Airbnb in Ruby on Rails. This is a group project focused on pair programming and delivering MVP and utilizing XP principles.
 
 ### The Team:
 
